@@ -1,0 +1,120 @@
+body {
+    background-color: #E4C59E;
+}
+
+.main_section {
+    display: flex;
+    align-items: center;
+    background-image: url(img/main.jpg);
+    ;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+h1 {
+    padding-left: 30px;
+    font-family: "Dancing Script", cursive;
+    font-size: 60px;
+    color: #322C2B;
+}
+
+h3 {
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    color: #322C2B;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.item {
+    margin: 5px;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    font-family: "Dancing Script", cursive;
+    flex: 1;
+    position: relative;
+}
+
+.par {
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    color: black;
+    background-color: #faf1e6;
+    font-size: 0;
+}
+
+.price {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    color: black;
+    background-color: #faf1e6;
+    font-size: 0;
+}
+
+.selected {
+    flex: 4;
+}
+
+.selected h4 {
+    font-size: 40px;
+    transition: all 1s ease-in;
+}
+
+.selected .par {
+    font-size: 20px;
+    transition: all 1s ease-in;
+}
+
+.selected .price {
+    font-size: 35px;
+    transition: all 1s ease-in;
+}
+
+.one {
+    background-image: url(img/1.jpg);
+}
+
+.two {
+    background-image: url(img/2.jpg);
+}
+
+.three {
+    background-image: url(img/3.jpg);
+}
+
+.four {
+    background-image: url(img/4.jpg);
+}
+
+.five {
+    background-image: url(img/5.jpg);
+}
+
+.six {
+    background-image: url(img/6.jpg);
+}
+
+label {
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+}
+
+.text-input {
+    background-color: #faf1e6;
+    border: none;
+    padding: 12px 20px;
+}
+
+.btn {
+    background-color: #00adb5;
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    flex: 1;
+}
