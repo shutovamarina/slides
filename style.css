@@ -23,7 +23,13 @@ h3 {
     font-family: "Dancing Script", cursive;
     font-size: 30px;
     color: #322C2B;
-    text-align: center;
+}
+
+.header,
+.slides {
+    display: flex;
+    justify-content: center;
+    background-color: #E4C59E;
 }
 
 .container {
@@ -40,12 +46,21 @@ h3 {
     position: relative;
 }
 
+h4 {
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    color: #322C2B;
+    background-color: #E4C59E;
+    font-size: 0;
+}
+
 .par {
     position: absolute;
     top: 100px;
     left: 40px;
-    color: black;
-    background-color: #faf1e6;
+    color: #322C2B;
+    background-color: #E4C59E;
     font-size: 0;
 }
 
@@ -53,8 +68,8 @@ h3 {
     position: absolute;
     bottom: 40px;
     left: 40px;
-    color: black;
-    background-color: #faf1e6;
+    color: #322C2B;
+    background-color: #E4C59E;
     font-size: 0;
 }
 
@@ -68,7 +83,7 @@ h3 {
 }
 
 .selected .par {
-    font-size: 20px;
+    font-size: 30px;
     transition: all 1s ease-in;
 }
 
@@ -107,14 +122,24 @@ label {
 }
 
 .text-input {
-    background-color: #faf1e6;
-    border: none;
+    background-color: #E4C59E;
+    ;
+    ;
+    border: #fff solid 2px;
     padding: 12px 20px;
 }
 
 .btn {
-    background-color: #00adb5;
+    background-color: #803D3B;
     font-family: "Dancing Script", cursive;
     font-size: 30px;
+    /* flex: 1; */
+}
+
+.btn_mail {
     flex: 1;
+}
+
+#pictures {
+    width: 500px;
 }
