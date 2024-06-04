@@ -1,5 +1,6 @@
 body {
     background-color: #E4C59E;
+    margin: 0 auto;
 }
 
 .main_section {
@@ -133,7 +134,7 @@ label {
     background-color: #803D3B;
     font-family: "Dancing Script", cursive;
     font-size: 30px;
-    /* flex: 1; */
+    border: none;
 }
 
 .btn_mail {
@@ -142,4 +143,7 @@ label {
 
 #pictures {
     width: 500px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
