@@ -178,9 +178,6 @@
         label {
             text-align: center;
         }
-        input {
-            text-align: center;
-        }
     }
     
     @media only screen and (max-width: 576px) {
