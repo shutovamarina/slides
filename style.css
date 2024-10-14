@@ -1,149 +1,193 @@
-body {
-    background-color: #E4C59E;
-    margin: 0 auto;
-}
-
-.main_section {
-    display: flex;
-    align-items: center;
-    background-image: url(img/main.jpg);
-    ;
-    background-size: cover;
-    background-position: center;
-    min-height: 100vh;
-}
-
-h1 {
-    padding-left: 30px;
-    font-family: "Dancing Script", cursive;
-    font-size: 60px;
-    color: #322C2B;
-}
-
-h3 {
-    font-family: "Dancing Script", cursive;
-    font-size: 30px;
-    color: #322C2B;
-}
-
-.header,
-.slides {
-    display: flex;
-    justify-content: center;
-    background-color: #E4C59E;
-}
-
-.container {
-    display: flex;
-}
-
-.item {
-    margin: 5px;
-    height: 90vh;
-    background-size: cover;
-    background-position: center;
-    font-family: "Dancing Script", cursive;
-    flex: 1;
-    position: relative;
-}
-
-h4 {
-    position: absolute;
-    top: 15px;
-    left: 40px;
-    color: #322C2B;
-    background-color: #E4C59E;
-    font-size: 0;
-}
-
-.par {
-    position: absolute;
-    top: 100px;
-    left: 40px;
-    color: #322C2B;
-    background-color: #E4C59E;
-    font-size: 0;
-}
-
-.price {
-    position: absolute;
-    bottom: 40px;
-    left: 40px;
-    color: #322C2B;
-    background-color: #E4C59E;
-    font-size: 0;
-}
-
-.selected {
-    flex: 4;
-}
-
-.selected h4 {
-    font-size: 40px;
-    transition: all 1s ease-in;
-}
-
-.selected .par {
-    font-size: 30px;
-    transition: all 1s ease-in;
-}
-
-.selected .price {
-    font-size: 35px;
-    transition: all 1s ease-in;
-}
-
-.one {
-    background-image: url(img/1.jpg);
-}
-
-.two {
-    background-image: url(img/2.jpg);
-}
-
-.three {
-    background-image: url(img/3.jpg);
-}
-
-.four {
-    background-image: url(img/4.jpg);
-}
-
-.five {
-    background-image: url(img/5.jpg);
-}
-
-.six {
-    background-image: url(img/6.jpg);
-}
-
-label {
-    font-family: "Dancing Script", cursive;
-    font-size: 30px;
-}
-
-.text-input {
-    background-color: #E4C59E;
-    ;
-    ;
-    border: #fff solid 2px;
-    padding: 12px 20px;
-}
-
-.btn {
-    background-color: #803D3B;
-    font-family: "Dancing Script", cursive;
-    font-size: 30px;
-    border: none;
-}
-
-.btn_mail {
-    flex: 1;
-}
-
-#pictures {
-    width: 500px;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
+    body {
+        background-color: #E4C59E;
+        margin: 0 auto;
+        font-family: "Dancing Script", cursive;
+    }
+    
+    .main_section {
+        display: flex;
+        align-items: center;
+        background-image: url(img/main.jpg);
+        ;
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+    }
+    
+    h1 {
+        padding-left: 30px;
+        font-family: "Dancing Script", cursive;
+        font-size: 60px;
+        color: #322C2B;
+    }
+    
+    h3 {
+        font-family: "Dancing Script", cursive;
+        font-size: 30px;
+        color: #322C2B;
+    }
+    
+    .header,
+    .slides {
+        display: flex;
+        justify-content: center;
+        background-color: #E4C59E;
+    }
+    
+    .container {
+        display: flex;
+    }
+    
+    .item {
+        margin: 5px;
+        height: 90vh;
+        background-size: cover;
+        background-position: center;
+        font-family: "Dancing Script", cursive;
+        flex: 1;
+        position: relative;
+    }
+    
+    h4 {
+        position: absolute;
+        top: 15px;
+        left: 40px;
+        color: #322C2B;
+        background-color: #E4C59E;
+        font-size: 0;
+    }
+    
+    .par {
+        position: absolute;
+        top: 100px;
+        left: 40px;
+        color: #322C2B;
+        background-color: #E4C59E;
+        font-size: 0;
+    }
+    
+    .price {
+        position: absolute;
+        bottom: 40px;
+        left: 40px;
+        color: #322C2B;
+        background-color: #E4C59E;
+        font-size: 0;
+    }
+    
+    .selected {
+        flex: 4;
+    }
+    
+    .selected h4 {
+        font-size: 40px;
+        transition: all 1s ease-in;
+    }
+    
+    .selected .par {
+        font-size: 30px;
+        transition: all 1s ease-in;
+    }
+    
+    .selected .price {
+        font-size: 35px;
+        transition: all 1s ease-in;
+    }
+    
+    .one {
+        background-image: url(img/1.jpg);
+    }
+    
+    .two {
+        background-image: url(img/2.jpg);
+    }
+    
+    .three {
+        background-image: url(img/3.jpg);
+    }
+    
+    .four {
+        background-image: url(img/4.jpg);
+    }
+    
+    .five {
+        background-image: url(img/5.jpg);
+    }
+    
+    .six {
+        background-image: url(img/6.jpg);
+    }
+    
+    label {
+        font-family: "Dancing Script", cursive;
+        font-size: 30px;
+    }
+    
+    .text-input {
+        background-color: #E4C59E;
+        ;
+        ;
+        border: #fff solid 2px;
+        padding: 12px 20px;
+    }
+    
+    .btn {
+        background-color: #803D3B;
+        font-family: "Dancing Script", cursive;
+        font-size: 30px;
+        border: none;
+    }
+    
+    .btn_mail {
+        flex: 1;
+    }
+    
+    #pictures {
+        width: 500px;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    
+    .back_two {
+        display: none;
+    }
+    
+    @media only screen and (max-width: 768px) {
+        .main_section {
+            min-height: 50vh;
+            background-size: cover;
+            background-position: center;
+        }
+        h1 {
+            font-size: 35px;
+            padding-left: 15px;
+        }
+        .item {
+            height: 45vh;
+        }
+        #pictures {
+            width: 45vh;
+        }
+        .selected h4 {
+            font-size: 15px;
+        }
+        .selected .par {
+            font-size: 15px;
+        }
+        label {
+            text-align: center;
+        }
+        input {
+            text-align: center;
+        }
+    }
+    
+    @media only screen and (max-width: 576px) {
+        .btn {
+            font-size: 15px;
+        }
+        #pictures {
+            width: 35vh;
+        }
+    }
