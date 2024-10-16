@@ -14,7 +14,7 @@ items.forEach(item => {
 
 const back = document.querySelector("#back");
 const next = document.querySelector("#next");
-const photos = ["img/11.jpg", "img/22.jpg", "img/33.jpg", "img/44.jpg", "img/55.jpg", "img/66.jpg"];
+const photos = ["img/11.webp", "img/22.webp", "img/33.webp", "img/44.webp", "img/55.webp", "img/66.webp"];
 let i = 0;
 next.addEventListener('click', () => {
     i++;

@@ -1,5 +1,5 @@
     body {
-        background-color: #E4C59E;
+        background-color: #e9e3db;
         margin: 0 auto;
         font-family: "Dancing Script", cursive;
     }
@@ -7,7 +7,7 @@
     .main_section {
         display: flex;
         align-items: center;
-        background-image: url(img/main.jpg);
+        background-image: url(img/main.webp);
         ;
         background-size: cover;
         background-position: center;
@@ -21,6 +21,19 @@
         color: #322C2B;
     }
     
+    h1 {
+        padding-left: 30px;
+        font-family: "Dancing Script", cursive;
+        font-size: 60px;
+        color: #322C2B;
+        background-color: rgba(233, 227, 219, 0.5);
+        /* Полупрозрачный белый фон */
+        padding: 10px;
+        border-radius: 5px;
+        margin-left: 10px;
+        /* Округлённые углы */
+    }
+    
     h3 {
         font-family: "Dancing Script", cursive;
         font-size: 30px;
@@ -31,7 +44,7 @@
     .slides {
         display: flex;
         justify-content: center;
-        background-color: #E4C59E;
+        background-color: #e9e3db;
     }
     
     .container {
@@ -53,7 +66,7 @@
         top: 15px;
         left: 40px;
         color: #322C2B;
-        background-color: #E4C59E;
+        background-color: #e9e3db;
         font-size: 0;
     }
     
@@ -62,7 +75,7 @@
         top: 100px;
         left: 40px;
         color: #322C2B;
-        background-color: #E4C59E;
+        background-color: #e9e3db;
         font-size: 0;
     }
     
@@ -71,7 +84,7 @@
         bottom: 40px;
         left: 40px;
         color: #322C2B;
-        background-color: #E4C59E;
+        background-color: #e9e3db;
         font-size: 0;
     }
     
@@ -95,27 +108,27 @@
     }
     
     .one {
-        background-image: url(img/1.jpg);
+        background-image: url(img/1.webp);
     }
     
     .two {
-        background-image: url(img/2.jpg);
+        background-image: url(img/2.webp);
     }
     
     .three {
-        background-image: url(img/3.jpg);
+        background-image: url(img/3.webp);
     }
     
     .four {
-        background-image: url(img/4.jpg);
+        background-image: url(img/4.webp);
     }
     
     .five {
-        background-image: url(img/5.jpg);
+        background-image: url(img/5.webp);
     }
     
     .six {
-        background-image: url(img/6.jpg);
+        background-image: url(img/6.webp);
     }
     
     label {
@@ -132,10 +145,12 @@
     }
     
     .btn {
-        background-color: #803D3B;
+        background-color: #E4C59E;
+        ;
         font-family: "Dancing Script", cursive;
         font-size: 30px;
         border: none;
+        padding: 10px;
     }
     
     .btn_mail {
@@ -155,7 +170,7 @@
     
     @media only screen and (max-width: 768px) {
         .main_section {
-            min-height: 50vh;
+            min-height: 100vh;
             background-size: cover;
             background-position: center;
         }
@@ -164,7 +179,7 @@
             padding-left: 15px;
         }
         .item {
-            height: 45vh;
+            height: 50vh;
         }
         #pictures {
             width: 45vh;
